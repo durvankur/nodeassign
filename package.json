@@ -1,0 +1,34 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:durvankur/nodeassign.git"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "assert": "^2.0.0",
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "mocha": "^8.1.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "util": "^0.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

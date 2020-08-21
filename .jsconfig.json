@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "allowSyntheticDefaultImports": true,
+      "allowUmdGlobalAccess": true,
+      "allowUnreachableCode": true
+    },
+    "exclude": ["./node_modules"]
+  }
